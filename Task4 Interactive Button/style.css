@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.container {
+    text-align: center;
+}
+
+#interactiveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#interactiveButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+#interactiveButton:active {
+    transform: scale(0.95);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
